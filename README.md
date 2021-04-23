@@ -2,6 +2,7 @@
 Netrunner Card Recognition
 
 Run the script with `python makerseye_v0.2.py`.  
+Requires a bunch of packages (cv2, numpy, pickle, PIL, urllib, imagehash), most which can be installed with `pip install [package]`. Google for more informaton.  
 `scans.32ihash` is the datafile and should be in the same directory as the script.  
 Requires an internet connection to jinteki.net to retrieve detected images.
 
